@@ -14,13 +14,10 @@ public class Ex13 {
 		
 		for (int i = 1; i <= num; i++) {
 			sum += i;
-			
 		}
 		
 		System.out.println("합계: " + sum);
 		
 		sc.close();
-		
 	}
-
 }

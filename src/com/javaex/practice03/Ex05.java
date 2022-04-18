@@ -11,9 +11,9 @@ public class Ex05 {
 			if (i >= 5) {
 				flag = false;
 			}
+			
 			System.out.println(i); // i == 5여도 출력 한 뒤 while 조건에 걸림
 			i = i+1;
-			
 		}
 		
 		/*
@@ -25,5 +25,4 @@ public class Ex05 {
 		 */
 		
 	}
-
 }

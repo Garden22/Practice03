@@ -24,8 +24,6 @@ public class Ex14 {
 		System.out.println();
 		System.out.println("합계: " + sum);
 		
-		sc.close();
-		
+		sc.close();	
 	}
-
 }

@@ -5,9 +5,12 @@ import java.util.Scanner;
 public class Ex19 {
 
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
+		
 		int sum, money, select;
 		sum = 0;
+		
 		
 		while (true) {
 			System.out.println("-----------------------------");
@@ -40,11 +43,8 @@ public class Ex19 {
 			}
 			
 			System.out.println();
-			
 		}
 		
 		sc.close();
-		
 	}
-
 }

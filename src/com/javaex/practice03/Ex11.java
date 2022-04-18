@@ -16,6 +16,7 @@ public class Ex11 {
 			for (int i = 2; i <= num; i += 2) {
 				answer += i;
 			}
+			
 		} else {
 			for (int i = 1; i <= num; i += 2) {
 				answer += i;
@@ -23,7 +24,6 @@ public class Ex11 {
 		}
 		
 		System.out.println("결과값: " + answer);
-		
 		sc.close();
 	}
 

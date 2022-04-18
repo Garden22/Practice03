@@ -16,14 +16,10 @@ public class Ex12 {
 		
 		for (int i = 1; i <= num; i++) {
 			answer *= i;
-			
 		}
 		
 		System.out.println("결과값: " + answer);
 		
 		sc.close();
-		
 	}
-	
-
 }

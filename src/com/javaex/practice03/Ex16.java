@@ -7,6 +7,7 @@ public class Ex16 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		
 		int sum = 0;
 		int count = 0;
 		
@@ -17,7 +18,6 @@ public class Ex16 {
 			if (i % 5 == 0) {
 				sum += 1;
 				count += i;	
-				
 			}
 		}
 		
