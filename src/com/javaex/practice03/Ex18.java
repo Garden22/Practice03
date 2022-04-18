@@ -21,7 +21,7 @@ public class Ex18 {
 		}
 		
 		
-		for (int i = 1; i <= num; i++) { // 숫자 하나씩 늘려가면서 출력(별 두개부터 num개까지)
+		for (int i = 2; i <= num; i++) { // 숫자 하나씩 늘려가면서 출력(별 두개부터 num개까지)
 			for (int j = 1; j <= i; j++) {
 				System.out.print("*");
 			}
