@@ -16,13 +16,12 @@ public class Ex10 {
 		
 		for (int i = 1; i <= 5; i++) {
 			System.out.print("숫자: ");
+			num = sc.nextInt();
 			
 			if (i == 1) {
-				max = sc.nextInt();
+				max = num;
 				
-			} else {
-				num = sc.nextInt();
-				
+			} else {			
 				if (num > max) {
 					max = num;
 				}
